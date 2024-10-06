@@ -1,17 +1,38 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Receitas por Escrito
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-button class="botao3" expand="full" [routerLink]="['/tabs/tab3']">ir para home</ion-button>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>BOLO DE CENOURA</ion-card-title>
+      <ion-card-subtitle>aprenda a fazer...</ion-card-subtitle> 
+    </ion-card-header>
+      <ion-card-content>
+        Receita bolo de cenoura por escrito
+        <img src="assets/imgs/receita imagem bolo cenoura.png">
+      </ion-card-content>
+  </ion-card>
+<ion-button class="botao3" expand="full" [routerLink]="['/tabs/tab1']">clique aqui para ver a receita em video</ion-button>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>BOLINHA DE QUEIJO</ion-card-title> 
+    <ion-card-subtitle>aprenda a fazer...</ion-card-subtitle> 
+  </ion-card-header>
+    <ion-card-content>
+      Receita bolinha de queijo por escrito
+      <img src="assets/imgs/sos_receita_bolinhas-de_queijo1.png">
+    </ion-card-content>
+</ion-card>
+<ion-button class="botao3" expand="full" [routerLink]="['/tabs/tab1']">clique aqui para ver a receita em video</ion-button>
 </ion-content>
